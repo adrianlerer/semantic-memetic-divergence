@@ -1,0 +1,11 @@
+{
+  "environment": "I-6_social_doctrine",
+  "n_sentences": 218,
+  "P_overall": 0.2033,
+  "std": 0.1256,
+  "primary_term": "justice",
+  "equity_per_10kwords_avg": 0.7316,
+  "justice_per_10kwords_avg": 10.1505,
+  "key_finding": "I-6 uses 'equity' at 0.15/10k words vs 'justice' at 1.05/10k words. Terminological decoupling is complete post-1965.",
+  "source": "Vatican.va, 13 encyclicals 1891-2023"
+}

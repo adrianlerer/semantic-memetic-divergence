@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this dataset or pipeline, please cite:"
+authors:
+  - family-names: Lerer
+    given-names: Ignacio Adrián
+    orcid: https://orcid.org/0009-0007-6378-9749
+title: "Semantic Memetic Divergence: Replication Data for 'Why Good Arguments Lose'"
+version: 1.0.0
+date-released: 2026-06-18
+license: MIT
+repository-code: https://github.com/adrianlerer/semantic-memetic-divergence

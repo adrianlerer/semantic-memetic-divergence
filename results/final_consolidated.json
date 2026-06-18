@@ -1,0 +1,46 @@
+{
+  "I-1_Philosophical": {
+    "F_pre": 1.0,
+    "F_post": 0.7285,
+    "P_pre": 0.2398,
+    "P_post": 0.2484,
+    "n": 638,
+    "source": "OpenAlex n=2000; Ngrams",
+    "status": "COMPUTED"
+  },
+  "I-2_Legal_CommonLaw": {
+    "F_pre": 1.0,
+    "F_post": 0.7285,
+    "P_pre": null,
+    "P_post": null,
+    "P_overall": 0.3807,
+    "n": 87,
+    "source": "CourtListener n=87 texts",
+    "status": "COMPUTED (overall P only; pre/post split requires token for full opinions)",
+    "caveat": "Mixed text fields (posture, syllabus, case names) + some scraped opinion text. N is low."
+  },
+  "I-4_Public_Policy": {
+    "F_pre": 1.0,
+    "F_post": 0.7285,
+    "P_pre": 0.4672,
+    "P_post": 0.2913,
+    "n": 350,
+    "source": "World Bank Docs n=500; Ngrams",
+    "status": "COMPUTED"
+  },
+  "I-6_Social_Doctrine": {
+    "F_pre": 0.1367,
+    "F_post": 0.1907,
+    "P_pre": null,
+    "P_post": null,
+    "P_overall": 0.2033,
+    "n": 218,
+    "source": "Vatican.va n=13 encyclicals",
+    "status": "COMPUTED. KEY FINDING: equity=0 post-1965",
+    "key_finding": "Terminological decoupling: I-6 uses 'justice' not 'equity'"
+  },
+  "I-3_Social_Media": {
+    "status": "NOT COMPUTED \u2014 no verified corpus",
+    "treatment": "Qualitative, paper Section IV.D"
+  }
+}

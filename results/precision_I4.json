@@ -1,0 +1,9 @@
+{
+  "environment": "I-4_public_policy",
+  "n": 350,
+  "P_overall": 0.3877,
+  "P_pre2015": 0.4672,
+  "P_post2015": 0.2913,
+  "std": 0.2414,
+  "source": "World Bank Documents API, qterm=equity, n=500 docs"
+}

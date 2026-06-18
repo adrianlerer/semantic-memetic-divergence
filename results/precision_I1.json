@@ -1,0 +1,9 @@
+{
+  "environment": "I-1_philosophical",
+  "n_sentences": 638,
+  "P_overall": 0.227,
+  "P_pre2015": 0.2398,
+  "P_post2015": 0.2484,
+  "std_sim": 0.132,
+  "note": "Mean intra-environment cosine similarity via sentence-BERT all-MiniLM-L6-v2. Source: OpenAlex 2000-2024, concept=equity(law)+distributive justice, n=2000 papers."
+}

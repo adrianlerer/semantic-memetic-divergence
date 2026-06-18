@@ -1,0 +1,38 @@
+{
+  "I-1_Philosophical": {
+    "F_pre2015_normalized": 1.0,
+    "F_post2015_normalized": 0.729,
+    "P_pre2015_sbert": 0.2398,
+    "P_post2015_sbert": 0.2484,
+    "n_sentences": 638,
+    "source": "OpenAlex, n=2000 papers, sentence-BERT all-MiniLM-L6-v2",
+    "notes": "F from Google Ngrams English 'equity' normalized. P from intra-corpus cosine similarity."
+  },
+  "I-4_Public_Policy": {
+    "F_pre2015_normalized": 0.736,
+    "F_post2015_normalized": 0.796,
+    "P_pre2015_sbert": 0.4672,
+    "P_post2015_sbert": 0.2913,
+    "n_sentences": 350,
+    "source": "World Bank Documents API, n=500 docs, sentence-BERT",
+    "notes": "Strong P decline post-2015: equity used in increasingly heterogeneous contexts."
+  },
+  "I-6_Social_Doctrine": {
+    "F_pre2015_normalized": 0.137,
+    "F_post2015_normalized": 0.191,
+    "P_overall_sbert": 0.2033,
+    "n_sentences": 218,
+    "source": "Vatican.va, 13 encyclicals 1891-2023, sentence-BERT",
+    "KEY_FINDING": "EQUITY ABSENT POST-1965. 0 occurrences of 'equity' in Vatican corpus after Gaudium et Spes (1965). I-6 operates on 'justice' (avg 10.15/10k words) not 'equity' (0.15/10k). Terminological decoupling is complete."
+  },
+  "I-2_Legal_Positive": {
+    "status": "PENDING",
+    "corpus": "Harvard CAP API (requires token registration at case.law) + CourtListener",
+    "pipeline": "scripts/04_legal_corpus.py in repo"
+  },
+  "I-3_Social_Media": {
+    "status": "NOT COMPUTED",
+    "reason": "No verified corpus without Twitter Academic API or Pushshift access",
+    "treatment_in_paper": "Qualitative analysis, Section IV.D, with explicit methodological note"
+  }
+}

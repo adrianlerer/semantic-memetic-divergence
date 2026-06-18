@@ -1,0 +1,8 @@
+{
+  "environment": "I-2_legal_common_law",
+  "n_texts": 87,
+  "P_overall": 0.3807,
+  "std": 0.1,
+  "source": "CourtListener search API (posture/syllabus fields) + HTML scraping, 5 queries",
+  "caveat": "Mixed text fields (posture, syllabus, case names) + some scraped opinion text. N is low."
+}
