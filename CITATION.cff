@@ -7,5 +7,6 @@ authors:
 title: "Semantic Memetic Divergence: Replication Data for 'Why Good Arguments Lose'"
 version: 1.0.0
 date-released: 2026-06-18
+doi: 10.5281/zenodo.20776942
 license: MIT
 repository-code: https://github.com/adrianlerer/semantic-memetic-divergence

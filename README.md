@@ -4,7 +4,7 @@
 **Paper:** Why Good Arguments Lose: Semantic Speciation and Memetic Fitness in Normative Concepts  
 **Author:** Ignacio Adrian Lerer | ORCID: 0009-0007-6378-9749 | adrian@lerer.com.ar  
 **Zenodo community:** law-as-extended-phenotype  
-**Paper DOI:** [pending Zenodo submission]
+**Paper DOI:** [10.5281/zenodo.20776942](https://doi.org/10.5281/zenodo.20776942)
 
 ---
 
@@ -157,7 +157,7 @@ regenerates the full working file needed by `scripts/07b_precision_I6_full.py`.
 If you use this data or pipeline, please cite:
 
 Lerer, I. A. (2026). Why Good Arguments Lose: Semantic Speciation and Memetic
-Fitness in Normative Concepts. Zenodo (community: law-as-extended-phenotype).
+Fitness in Normative Concepts. Zenodo. https://doi.org/10.5281/zenodo.20776942
 github.com/adrianlerer/semantic-memetic-divergence
 
 ---
